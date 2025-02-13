@@ -63,7 +63,9 @@ const NavBar = () => {
 
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-purple-500
         hover:opacity-100">
-          <BsGithub/>
+           <a href="https://github.com/TheRealAlexG" target="_blank" rel="noopener noreferrer">
+            <BsGithub />
+          </a>
         </li>
 
       </ul>
