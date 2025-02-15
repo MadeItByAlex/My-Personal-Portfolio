@@ -1,4 +1,4 @@
-import image from "/public/me.jpg"
+import image from "/src/images/me.jpg"
 import { motion } from "framer-motion"
 
 
