@@ -12,7 +12,8 @@ const projectsData=[
     image: image,
     title:"Vehicle & Crypto Explorer – Kotlin Android App",
     description:"This Android app, built with Kotlin, allows users to explore a collection of vehicles, motorcycles, and cryptocurrencies by fetching data from an API. Users can view a list of items in each category and tap on them to see detailed specifications and images in a separate view.",
-    technologies:["KOTLIN"]
+    technologies:["KOTLIN"],
+    url:"https://github.com/TheRealAlexG/Vehicle-Crypto-Explorer"
 
   }
   ,
@@ -21,6 +22,7 @@ const projectsData=[
     title:"Space Invaders – Unity Game",
     description:"This Unity game is a space shooter where the player controls a spaceship, dodging and shooting meteorites while facing enemy ships that also shoot back. The goal is to survive as long as possible while eliminating threats from both the environment and enemies.",
     technologies:["UNITY","C#"],
+    url:"https://github.com/TheRealAlexG/Space-Invaders"
 
   }
   ,
@@ -29,6 +31,7 @@ const projectsData=[
     title:"Rock Paper Sizors Spock Lizard – Kotlin Android App",
     description:"Enjoy the classic Rock Paper Scissors with a twist! Play Rock Paper Scissors Spock Lizard against AI in this fun and fast-paced Android game, built with Kotlin.",
     technologies:["KOTLIN"],
+    url:"https://github.com/TheRealAlexG/My-Personal-Portfolio"
 
   }
   ,
@@ -57,8 +60,11 @@ const ProjectCard = ({project}) => {
   return(
     <ScrollReveal>
     <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
-      <img src= {project.image} alt="" className="w-full cursor-pointer scale-75 rounded-2xl transition-all duration-300
-      hover:scale-105 md:w-[300px]" />
+    <a href={project.url} target="_blank" rel="noopener noreferrer">
+    
+      <img src= {project.image} alt="" className="w-full max-w-[300px] cursor-pointer scale-75 rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]" />
+
+    </a>
       <div className="flex flex-col gap-3">
         <div className="flex flex-col gap-3">
         <div className="text-xl font-semibold">{project.title}</div>
