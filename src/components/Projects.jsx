@@ -31,7 +31,7 @@ const projectsData=[
     title:"Rock Paper Sizors Spock Lizard – Kotlin Android App",
     description:"Enjoy the classic Rock Paper Scissors with a twist! Play Rock Paper Scissors Spock Lizard against AI in this fun and fast-paced Android game, built with Kotlin.",
     technologies:["KOTLIN"],
-    url:"https://github.com/TheRealAlexG/My-Personal-Portfolio"
+    url:"https://github.com/TheRealAlexG/Rock-Paper-Scissors-Lizard-Spock"
 
   }
   ,
