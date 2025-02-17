@@ -1,7 +1,7 @@
 import { div, span } from "framer-motion/client"
 import image from "/src/images/6.png"
 import image1 from "/src/images/4.png"
-import image2 from "/src/images/1.png"
+import image2 from "/src/images/3.png"
 import image3 from "/src/images/4.png"
 import { motion } from "framer-motion"  
 import { Children } from "react"
