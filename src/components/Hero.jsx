@@ -1,7 +1,6 @@
 import image from "/src/images/me.jpg"
 import { motion } from "framer-motion"
-import cv from "/src/assets/AlexManCV2025.pdf"
-
+import cv from "/src/assets/AlexCv.pdf"
 
 const Hero = () => {
   return (

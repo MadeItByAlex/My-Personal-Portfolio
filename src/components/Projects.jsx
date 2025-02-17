@@ -3,8 +3,6 @@ import image from "/src/images/6.png"
 import image1 from "/src/images/4.png"
 import image2 from "/src/images/3.png"
 import image3 from "/src/images/4.png"
-import cv from "/src/assets/AlexManCV2025.pdf"
-
 import { motion } from "framer-motion"  
 import { Children } from "react"
 
