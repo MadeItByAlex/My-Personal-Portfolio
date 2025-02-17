@@ -1,7 +1,7 @@
 import { div, span } from "framer-motion/client"
 import image from "/src/images/6.png"
 import image1 from "/src/images/4.png"
-import image2 from "/src/images/3.png"
+import image2 from "/src/images/1.png"
 import image3 from "/src/images/4.png"
 import { motion } from "framer-motion"  
 import { Children } from "react"
@@ -19,26 +19,20 @@ const projectsData=[
   {
     image: image1,
     title:"Space Invaders – Unity Game",
-    description:"A habit tracker app that helps you build good habits and break bad ones. It allows you to track your habits and goals in a simple and intuitive way.",
+    description:"This Unity game is a space shooter where the player controls a spaceship, dodging and shooting meteorites while facing enemy ships that also shoot back. The goal is to survive as long as possible while eliminating threats from both the environment and enemies.",
     technologies:["UNITY","C#"],
 
   }
   ,
   {
     image: image2,
-    title:"Rock Paper Sizors Spock Lizard",
-    description:"A habit tracker app that helps you build good habits and break bad ones. It allows you to track your habits and goals in a simple and intuitive way.",
-    technologies:["React","HTML","CCS","MYSQL"],
+    title:"Rock Paper Sizors Spock Lizard – Kotlin Android App",
+    description:"Enjoy the classic Rock Paper Scissors with a twist! Play Rock Paper Scissors Spock Lizard against AI in this fun and fast-paced Android game, built with Kotlin.",
+    technologies:["KOTLIN"],
 
   }
   ,
-  {
-    image: image3,
-    title:"Habbit tracker",
-    description:"A habit tracker app that helps you build good habits and break bad ones. It allows you to track your habits and goals in a simple and intuitive way.",
-    technologies:["React","HTML","CCS","MYSQL"],
-
-  }
+ 
 ]
 
 
