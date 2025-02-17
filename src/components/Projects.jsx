@@ -1,8 +1,9 @@
 import { div, span } from "framer-motion/client"
-import image from "/src/images/1.png"
-import image1 from "/src/images/2.png"
+import image from "/src/images/6.png"
+import image1 from "/src/images/4.png"
 import image2 from "/src/images/3.png"
 import image3 from "/src/images/4.png"
+import cv from "/src/assets/AlexManCV2025.pdf"
 
 import { motion } from "framer-motion"  
 import { Children } from "react"
@@ -11,17 +12,17 @@ import { Children } from "react"
 const projectsData=[
   {
     image: image,
-    title:"REST API POINT",
-    description:"A habit tracker app that helps you build good habits and break bad ones. It allows you to track your habits and goals in a simple and intuitive way.",
-    technologies:["React","HTML","CCS","MYSQL"],
+    title:"Vehicle & Crypto Explorer – Kotlin Android App",
+    description:"This Android app, built with Kotlin, allows users to explore a collection of vehicles, motorcycles, and cryptocurrencies by fetching data from an API. Users can view a list of items in each category and tap on them to see detailed specifications and images in a separate view.",
+    technologies:["KOTLIN"]
 
   }
   ,
   {
     image: image1,
-    title:"Drawer App Android",
+    title:"Space Invaders – Unity Game",
     description:"A habit tracker app that helps you build good habits and break bad ones. It allows you to track your habits and goals in a simple and intuitive way.",
-    technologies:["React","HTML","CCS","MYSQL"],
+    technologies:["UNITY","C#"],
 
   }
   ,
@@ -64,7 +65,7 @@ const ProjectCard = ({project}) => {
   return(
     <ScrollReveal>
     <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
-      <img src= {project.image} alt="" className="w-full cursor-pointer  rounded-2xl transition-all duration-300
+      <img src= {project.image} alt="" className="w-full cursor-pointer scale-75 rounded-2xl transition-all duration-300
       hover:scale-105 md:w-[300px]" />
       <div className="flex flex-col gap-3">
         <div className="flex flex-col gap-3">
