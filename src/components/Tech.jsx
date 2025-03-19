@@ -1,4 +1,4 @@
-import {BiLogoCss3, BiLogoDocker, BiLogoHtml5, BiLogoJava, BiLogoJavascript, BiLogoNodejs, BiLogoPostgresql, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi"
+import {BiLogoCss3, BiLogoDocker, BiLogoHtml5, BiLogoJava, BiLogoJavascript, BiLogoNodejs, BiLogoPostgresql, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi"
 import { TbBrandCSharp } from "react-icons/tb";
 import { SiKotlin } from "react-icons/si";
 import {motion} from "framer-motion";
@@ -87,7 +87,7 @@ const Tech = () => {
         initial="hidden"
         whileInView={"visible"}
         transition={{duration: 0.5}} >
-          <BiLogoNodejs className="cursor-pointer text-[80px] text-green-500 transition-all duration-300
+          <BiLogoReact className="cursor-pointer text-[80px] text-blue-500 transition-all duration-300
            hover:-translate-y-5 sm:text-[100px] md:text-[120px]"/>
         </motion.div>
 
@@ -96,7 +96,7 @@ const Tech = () => {
         initial="hidden"
         whileInView={"visible"}
         transition={{duration: 0.5}}>
-          <BiLogoPostgresql className="cursor-pointer text-[80px] text-blue-500 transition-all duration-300
+          <BiLogoPostgresql className="cursor-pointer text-[80px] text-blue-200 transition-all duration-300
            hover:-translate-y-5 sm:text-[100px] md:text-[120px]"/>
         </motion.div>
 

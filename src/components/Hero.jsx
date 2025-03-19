@@ -30,7 +30,7 @@ const Hero = () => {
             text-5xl font-light md:text-7xl">Alex Man</h1>
           <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent 
             text-2xl   md:text-3xl">Full-stack Developer</h3>
-          <p className=" text-pretty mt-[30px] text-[20px] text-gray-400">I'm a Full Stack Developer focused on creating high-performance, dynamic, and scalable web applications. I blend front-end and back-end expertise to deliver seamless and premium user experiences.</p>
+          <p className="text-pretty mt-[30px] text-[20px] text-gray-400">I'm a Full Stack Developer focused on creating high-performance, dynamic, and scalable web applications. I blend front-end and back-end expertise to deliver seamless and premium user experiences.</p>
 
         <a href="/AlexCv.pdf"
         download="Alex_Cv.pdf"
