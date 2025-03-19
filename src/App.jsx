@@ -12,8 +12,8 @@ function App() {
       lg:px-16">
         <NavBar/>
         <Hero/>
-        <Tech/>
         <Projects/>
+        <Tech/>
         <Contact/>
       </main>
     </>

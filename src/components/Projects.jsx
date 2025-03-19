@@ -1,8 +1,8 @@
 import { div, span } from "framer-motion/client"
 import image from "/src/images/6.png"
 import image1 from "/src/images/4.png"
-import image2 from "/src/images/3.png"
-import image3 from "/src/images/5.png"
+import image2 from "/src/images/yt2.png"
+import image3 from "/src/images/gcs.png"
 import { motion } from "framer-motion"  
 import { Children } from "react"
 
@@ -28,17 +28,17 @@ const projectsData=[
   ,
   {
     image: image2,
-    title:"Rock Paper Sizors Spock Lizard – Kotlin Android App",
-    description:"Enjoy the classic Rock Paper Scissors with a twist! Play Rock Paper Scissors Spock Lizard against AI in this fun and fast-paced Android game, built with Kotlin.",
-    technologies:["KOTLIN"],
-    url:"https://github.com/TheRealAlexG/Rock-Paper-Scissors-Lizard-Spock"
+    title:"Youtube Downloader – Python App",
+    description:"Tired of visiting sketchy websites to download YouTube videos? 😤I’ve built a YouTube Downloader 🖥️🎥 where you can easily download your favorite YouTube videos! Simply input the video URL, select your preferred quality, and start downloading! 🎯✨",
+    technologies:["Python"],
+    url:"https://github.com/MadeItByAlex/YoutubeDownloader"
 
   }
   ,
 
   {
     image: image3,
-    title:"GCS-Data-Retrieve - Java React App",
+    title:"GCS-Data-Retrieve - React App",
     description:"A web app that retrieves a JSON file from a GCS bucket and exposes an API endpoint with filtering, pagination (20 entries per page), and sorting by id, name, and createdOn. The frontend displays the data in a table with search, filtering, and row ordering options. 🚀",
     technologies:["JAVA","REACT","SPRING BOOT"],
     url:"https://github.com/TheRealAlexG/GCS-Data-Retriever"
