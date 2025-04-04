@@ -53,8 +53,8 @@ const Hero = () => {
           </ul>
           
 
-        <a href="/AlexManCV.pdf"
-        download="AlexManCV.pdf"
+        <a href="/AlexManCVPro.pdf"
+        download="AlexManCVPro.pdf"
          className="text-nowrap rounded-lg border border-indigo-600 bg-black px-3 mt-15 py-3
          text-lg font-bold text-white shadow-lg transition-all duration-300 hover:-translate-y-2
          hover:shadow-xl hover:shadow-indigo-600 ">Download CV</a>
